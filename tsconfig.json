@@ -1,0 +1,18 @@
+{
+    "conpilerOptions": {
+        "target": "ES2019",
+        "modules": "CommunJs",
+        "lib": ["ESNext", "DOM"],
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "removeComments": true,
+        "noEmitOnError": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skiplibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "./src"
+    ]
+}
